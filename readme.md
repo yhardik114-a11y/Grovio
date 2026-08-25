@@ -351,11 +351,7 @@ npm run dev
 
 ## Essential Git Commands
 
-### Clone the Repository
 
-```bash
-git clone https://github.com/KshitijSawant1/ElectronJS-Workshop-NirmalaCollege-2026.git
-```
 
 ### Check Repository Status
 
@@ -480,9 +476,7 @@ npm run dev
 
 ---
 
-## Repository
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Workshop_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KshitijSawant1/ElectronJS-Workshop-NirmalaCollege-2026)
 
 **Electron.js Workshop — Nirmala College 2026**
 
