@@ -11,6 +11,8 @@ import {
   FiLogIn,
   FiLogOut,
   FiUserPlus,
+  FiInfo,
+  FiHelpCircle,
 } from "react-icons/fi";
 
 import { useCart } from "@/context/CartContext";
@@ -28,6 +30,8 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "/", icon: FiHome },
     { name: "Products", href: "/products", icon: FiShoppingBag },
+    { name: "About", href: "/about", icon: FiInfo },
+    { name: "Help", href: "/help", icon: FiHelpCircle },
     { name: "Feedback", href: "/feedback", icon: MdFeedback },
   ];
 
