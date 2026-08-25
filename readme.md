@@ -139,7 +139,7 @@ git --version
 Clone the public workshop repository:
 
 ```bash
-git clone https://github.com/KshitijSawant1/ElectronJS-Workshop-NirmalaCollege-2026.git
+
 ```
 
 Enter the repository:
