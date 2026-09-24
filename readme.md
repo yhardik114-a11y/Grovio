@@ -1,27 +1,19 @@
-<div align="center">
-
 # Electron.js Workshop — Grovio
 
 ### CLYXN × SORXN | Nirmala College 2026
 
-A hands-on desktop application development workshop using  
+A hands-on desktop application development workshop using
 **Electron.js, Next.js, React.js and Node.js**
-
-<br>
 
 ![Electron](https://img.shields.io/badge/Electron-43.4.0-47848F?style=for-the-badge&logo=electron&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-16.3.1-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-19.2.8-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-<br>
-
 ![Workshop](https://img.shields.io/badge/Workshop-Nirmala_College_2026-orange?style=flat-square)
-![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
 ![Repository](https://img.shields.io/badge/Repository-Public-brightgreen?style=flat-square)
 ![Updates](https://img.shields.io/badge/Updates-After_Every_Session-blue?style=flat-square)
-
-</div>
 
 ---
 
@@ -31,7 +23,7 @@ This repository contains the source code, examples, and session-wise development
 
 The workshop follows a project-based approach where students progressively build **Grovio**, a desktop application developed using modern web technologies and Electron.js.
 
-The repository will be updated after every workshop session so that students can access the latest version of the project.
+The repository was updated after every workshop session so that students could access the latest version of the project.
 
 ---
 
@@ -43,21 +35,21 @@ The project demonstrates how a modern Next.js application can be integrated with
 
 ### Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| JavaScript | Application programming language |
-| React.js | Component-based user interface |
-| Next.js | Application framework and structure |
-| Tailwind CSS | User interface styling |
-| Node.js | JavaScript runtime and package environment |
-| Electron.js | Desktop application environment |
-| Supabase | Backend and database integration |
+| Technology   | Purpose                                    |
+| ------------ | ------------------------------------------ |
+| JavaScript   | Application programming language           |
+| React.js     | Component-based user interface             |
+| Next.js      | Application framework and structure        |
+| Tailwind CSS | User interface styling                     |
+| Node.js      | JavaScript runtime and package environment |
+| Electron.js  | Desktop application environment            |
+| Supabase     | Backend and database integration           |
 
 ---
 
 ## Project Architecture
 
-```text
+```
 Grovio
 │
 ├── Next.js
@@ -80,13 +72,13 @@ Next.js is responsible for building the application interface.
 
 Electron.js provides the desktop environment in which the Next.js application runs.
 
-Supabase will be integrated as the backend and database layer during the workshop.
+Supabase is integrated as the backend and database layer.
 
 ---
 
 ## Current Project Structure
 
-```text
+```
 grovio/
 │
 ├── app/
@@ -107,8 +99,6 @@ grovio/
 └── README.md
 ```
 
-The project structure will continue to evolve as new features are introduced during the workshop.
-
 ---
 
 ## Prerequisites
@@ -117,7 +107,7 @@ Before starting, ensure the following software is installed:
 
 ![VS Code](https://img.shields.io/badge/VS_Code-Required-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Required-F05032?style=flat-square&logo=git&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-20.9%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 
 Verify Node.js and npm:
 
@@ -139,13 +129,13 @@ git --version
 Clone the public workshop repository:
 
 ```bash
-
+git clone https://github.com/yhardik114-a11y/Grovio.git
 ```
 
 Enter the repository:
 
 ```bash
-cd ElectronJS-Workshop-NirmalaCollege-2026
+cd Grovio
 ```
 
 Open the repository in Visual Studio Code:
@@ -161,7 +151,7 @@ code .
 Move into the Grovio application:
 
 ```bash
-cd grovio
+cd project/grovio
 ```
 
 ---
@@ -182,11 +172,11 @@ npm install --save-dev electron concurrently wait-on
 
 ### Development Packages
 
-| Package | Purpose |
-|---|---|
-| `electron` | Runs Grovio as a desktop application |
-| `concurrently` | Runs Next.js and Electron together |
-| `wait-on` | Waits for the Next.js server before Electron starts |
+| Package        | Purpose                                             |
+| -------------- | ---------------------------------------------------- |
+| `electron`     | Runs Grovio as a desktop application                |
+| `concurrently` | Runs Next.js and Electron together                  |
+| `wait-on`      | Waits for the Next.js server before Electron starts |
 
 ---
 
@@ -200,7 +190,7 @@ npm run dev
 
 The development process is:
 
-```text
+```
 npm run dev
      |
      v
@@ -229,7 +219,7 @@ One command starts both the Next.js development server and the Electron desktop 
 
 The Electron main process is located at:
 
-```text
+```
 electron/main.js
 ```
 
@@ -260,7 +250,7 @@ app.whenReady().then(createWindow);
 
 The preload script is located at:
 
-```text
+```
 electron/preload.js
 ```
 
@@ -300,21 +290,21 @@ npm run dev
 
 ## Workshop Progress
 
-| Session | Topics | Status |
-|:---:|---|:---:|
-| Session 01 | Setup, GitHub and Next.js Project Setup | ![Completed](https://img.shields.io/badge/Completed-success?style=flat-square) |
-| Session 02 | Electron Setup, Main Process and Preload Script | ![In Progress](https://img.shields.io/badge/In_Progress-yellow?style=flat-square) |
-| Session 03 | Grovio Development and Integration | ![Upcoming](https://img.shields.io/badge/Upcoming-lightgrey?style=flat-square) |
+| Session    | Topics                                          | Status |
+| ---------- | ------------------------------------------------ | ------ |
+| Session 01 | Setup, GitHub and Next.js Project Setup         | ![Completed](https://img.shields.io/badge/Completed-brightgreen?style=flat-square) |
+| Session 02 | Electron Setup, Main Process and Preload Script | ![Completed](https://img.shields.io/badge/Completed-brightgreen?style=flat-square) |
+| Session 03 | Grovio Development and Integration              | ![Completed](https://img.shields.io/badge/Completed-brightgreen?style=flat-square) |
 
-The progress table will be updated after every workshop session.
+All workshop sessions are complete, and Grovio runs as a fully working Electron desktop application.
 
 ---
 
-## Updating the Workshop Project
+## Updating the Project
 
 If the repository has already been cloned, **do not clone it again**.
 
-Before the next workshop session, open the repository and run:
+To get the latest version, open the repository and run:
 
 ```bash
 git pull origin main
@@ -323,7 +313,7 @@ git pull origin main
 Then enter the Grovio project:
 
 ```bash
-cd grovio
+cd project/grovio
 ```
 
 Install any newly added dependencies:
@@ -342,7 +332,7 @@ npm run dev
 
 ```bash
 git pull origin main
-cd grovio
+cd project/grovio
 npm install
 npm run dev
 ```
@@ -351,15 +341,13 @@ npm run dev
 
 ## Essential Git Commands
 
-
-
 ### Check Repository Status
 
 ```bash
 git status
 ```
 
-### Pull Latest Workshop Updates
+### Pull Latest Updates
 
 ```bash
 git pull origin main
@@ -375,7 +363,7 @@ code .
 
 ## Workshop Documentation
 
-Workshop documentation will be progressively maintained for:
+Documentation covers:
 
 - Setup and Prerequisites
 - GitHub Repository Workflow
@@ -396,24 +384,16 @@ Workshop documentation will be progressively maintained for:
 
 ![Update Policy](https://img.shields.io/badge/Update_Policy-After_Every_Session-blue?style=flat-square)
 
-The `main` branch contains the latest workshop version of Grovio.
+The `main` branch contains the final workshop version of Grovio, including:
 
-After each workshop session, the repository may be updated with:
-
-- Source code developed during the session
-- New Grovio features
+- Source code developed during each session
+- Grovio features
 - UI components
-- Electron configuration changes
-- New dependencies
+- Electron configuration
+- Dependencies
 - Examples
 - Workshop documentation
 - Bug fixes and improvements
-
-Students should pull the latest version before beginning the next session:
-
-```bash
-git pull origin main
-```
 
 ---
 
@@ -448,7 +428,7 @@ npx next dev
 
 Check:
 
-```text
+```
 http://localhost:3000
 ```
 
@@ -464,25 +444,16 @@ Run:
 
 ```bash
 git pull origin main
-```
-
-Then:
-
-```bash
-cd grovio
+cd project/grovio
 npm install
 npm run dev
 ```
 
 ---
 
-
-
 **Electron.js Workshop — Nirmala College 2026**
 
 ---
-
-<div align="center">
 
 ### CLYXN × SORXN
 
@@ -492,5 +463,3 @@ npm run dev
 ![Next.js](https://img.shields.io/badge/Powered_by-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
 **Learn. Build. Ship.**
-
-</div>
